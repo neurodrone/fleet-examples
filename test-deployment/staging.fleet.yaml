@@ -1,0 +1,8 @@
+defaultNamespace: default
+namespace: default
+
+targetCustomizations:
+  - name: herd01
+    clusterSelector:
+      matchLabels:
+        name: herd01
